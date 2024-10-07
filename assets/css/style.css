@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(./fonts/Raleway-Italic-VariableFont_wght.ttf)
+}
+
+.header--figure {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    padding-left: 2rem;
+}
+
+.header--figure img {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #e0a7a7,
+        15px 0 30px #5b4646,
+        -15px 0 30px #141212;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.header--introduction {
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-family: "lato", sans-serif;
+
+
+}
+
+.header--address a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.header--address:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+
+
+/*tout les titre about*/
+.main--left--about {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 90%;
+    background: #dbc1a4;
+
+
+}
+
+.main--left--about h3 {
+    color: black;
+    text-indent: 1rem;
+    font-family: "lato", sans-serif;
+
+
+
+}
+
+.texte {
+    text-indent: 1rem;
+    text-align: justify;
+    width: 85%;
+    padding: 15px;
+    color: white;
+
+}
+
+/*liste  du main*/
+.main--left--menu {
+    margin-top: 5px;
+    margin-right: 1rem;
+    margin-left: -0.5rem;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+
+
+/*titre principal a droite*/
+.main--right--title h2 {
+    color: black;
+    margin: 20px;
+    padding: 2px;
+    background: linear-gradient(to left, #dbc1a4 1% 99%, rgb(78, 22, 21) 3%);
+    text-indent: 1rem;
+    font-family: "lato", sans-serif;
+
+}
+
+.main--right--under-title h4 {
+
+    text-indent: 1rem;
+    line-height: 3;
+}
+
+.date {
+
+    text-indent: 1rem;
+    line-height: 3;
+}
+
+.main--right--title h3 {
+    text-indent: 1rem;
+    line-height: 3;
+}
+
+.footer--media a i {
+    text-decoration: none;
+    margin: 10px 0 15px 20px;
+    font-size: 2.5em;
+
+}
+
+a:hover {
+    opacity: 0.5;
+    transition-duration: .5s;
+
+}
